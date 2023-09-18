@@ -1,38 +1,248 @@
+
+
 .App {
-  text-align: center;
+  text-align: center; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.blue_bg {
+  background: 
+  linear-gradient(-80deg, #FFFFFF 50%, #286DE0  50%);
+  width: 80%;
+  height: 1024px;
+  position: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.LOGO {
+  position: absolute;
+  width: 69px;
+  height: 29px;
+  top: 19.81px;
+  left: 32.99px;
+  font-family: 'Poppins';
+  font-weight: 700;
+  line-height: 122.69%;
+  color: #FFFFFF;
+  letter-spacing: 0.015em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Board{
+  position: absolute;
+  
+  top: 20%;
+  left: 171px;
+  font-family: Montserrat;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.flex-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: relative;
+  margin-top: 50%;
+  left: 161px;
+  justify-content: flex-start;
+}
+
+.flex-container > i {
+  font-size: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.sign_in_outline{
+  position: fixed;
+  display: inline;
+}
+
+.sign_in{
+  position: relative;
+  width: 143.81px;
+  height: 48.3px;
+  top: 100px;
+  font-family: Montserrat;
+  font-size: 30px;
+  line-height: 44px;
+  text-align: left;
+}
+
+.flexbox{
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+}
+
+
+.apple_link{
+  text-decoration: none;
+  color: #999999;
+  font-size: large;
+}
+.apple_btn{
+  margin-left: 20px;
+  margin-top: 120px;
+  width: 202px;
+  height: 42px;
+  background: none;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.text_align{
+  position: relative;
+  text-align: left;
+  left: -103px;
+}
+
+.pass_align{
+  position: relative;
+  text-align: left;
+  left: -120px;
+}
+.form_design{
+ 
+  background-color: #FFFFFF;
+  position: relative;
+}
+.form_design > input{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 300px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.form_design > button{
+  display: block;
+  height: 40px;
+  width: 310px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 9px;
   color: white;
+  background-color: #286DE0;
 }
 
-.App-link {
-  color: #61dafb;
+.bg{
+  background-color: rgb(248, 250, 255);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar_hori{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  top: 30px;
+  left: 43px;
+  background: linear-gradient(180deg, #4285F4 0%, #3C83F9 100%);
+  border-radius: 20px;
+  position: fixed;
+  height: 90%;
+  overflow: auto;
+    
+}
+
+li a .active{
+  font-weight: 600;
+}
+
+ h1{
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 30px;
+  margin-left: 25px;
+  margin-right: auto;
+  word-spacing: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 14px;
+  margin-left: 25px;
+  margin-right: auto;
+  word-spacing: 10px;
+}
+
+.bar_graph{
+  position: fixed;
+  top: 130px;
+  left: 280px;
+  height: 220px;
+  width: 700px;
+}
+
+.pie_chart{
+  position: fixed;
+  height: 200px;
+  width: 200px;
+  top: 400px;
+  left: 280px;
+  padding: 0px;
+  background-color: #FFFFFF;
+}
+
+
+
+.search {
+  width: 150%;
+  position: fixed;
+  display: inline-flex;
+  margin-left: 800px;
+  margin-top: 40px;
+}
+
+.searchTerm {
+  display: inline;
+  width: 20%;
+  border: none;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+ color: #9DBFAF;
+}
+
+.searchButton {
+  display: inline;
+  width: 40px;
+  height: 32px;
+  border: none;
+  margin-left: -30px;
+  text-align: center;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: rgba(0,0,0,0);
+}
+
+.dashboard{
+  position: fixed;
+  margin-left: 300px;
+  margin-top: 40px;
+}
+
+.add_user_icon{
+  color: #999999;
+  font-size: 60px;
+  margin-left: 70%;
+  margin-top: 35%;
+  padding: 45px 145px 45px 145px;
+  background-color: #c5c1c1a5;
 }
